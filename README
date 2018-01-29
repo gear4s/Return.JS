@@ -19,7 +19,8 @@ Second, define a function with some sort of return:
 const func = function(hi) {
   console.log(hi)
   return hi ? {} : []
-}```
+}
+```
 
 Third. instantiate an object:
 ```js
