@@ -19,7 +19,8 @@ Second, define a function with some sort of return:
 const func = function(hi) {
   console.log(hi)
   return hi ? {} : []
-}```
+}
+```
 
 Third. instantiate an object:
 ```js
@@ -49,5 +50,6 @@ The third way is the way I prefer most, using it directly:
 const returnFunc = new Return(function func(hi) {
   console.log(hi)
   return hi ? {} : []
-}).array.or.object.done```
+}).array.or.object.done
+```
 This is everything above combined.
