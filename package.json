@@ -1,0 +1,20 @@
+{
+  "name": "returnjs",
+  "version": "0.0.2",
+  "description": "wraps functions and checks their return type",
+  "main": "return.js",
+  "scripts": {
+    "test": "node return-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gear4s/Return.JS.git"
+  },
+  "keywords": [
+    "return",
+    "wrap",
+    "function"
+  ],
+  "author": "gear4",
+  "license": "MIT"
+}
