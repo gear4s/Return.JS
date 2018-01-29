@@ -36,7 +36,8 @@ The first way:
 ```js
 returnFunc.array
 returnFunc.object
-const caller = returnFunc.done```
+const caller = returnFunc.done
+```
 Which basically says that returnFunc can return either an array or object. `.done` gets an anonymous function which calls the main function
 
 The second way:
